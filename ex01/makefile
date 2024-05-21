@@ -1,6 +1,6 @@
-NAME = claptrap
+NAME = scavtrap
 
-SRC = main.cpp ClapTrap.cpp
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp
 
 OBJ_DIR = obj
 OBJ = $(addprefix $(OBJ_DIR)/,$(SRC:.cpp=.o))
@@ -28,6 +28,6 @@ re: fclean all
 
 run:
 	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes --track-fds=yes \
-	./claptrap
+	./scavtrap
 
 .PHONY: all clean fclean re
