@@ -16,13 +16,11 @@ int main() {
     std::cout << std::endl;
     scavtrap1.attack("Scav-112");
     scavtrap2.takeDamage(20);
-
     scavtrap2.beRepaired(10);
+    std::cout << "\n";
 
-    std::cout << std::endl;
     scavtrap2.guardGate();
-    
-    std::cout << std::endl;
+    std::cout << "\n";
 
     return 0;
 }

@@ -6,7 +6,7 @@ OBJ_DIR = obj
 OBJ = $(addprefix $(OBJ_DIR)/,$(SRC:.cpp=.o))
 
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -I.
+CXXFLAGS = -Wall -Wextra -Werror -std=c++98 -I. #-Wshadow
 RM = rm -fr
 
 all: $(NAME)

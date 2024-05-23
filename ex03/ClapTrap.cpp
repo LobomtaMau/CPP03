@@ -6,7 +6,7 @@
 /*   By: mbaptist <mbaptist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 11:16:08 by mbaptist          #+#    #+#             */
-/*   Updated: 2024/05/21 15:45:27 by mbaptist         ###   ########.fr       */
+/*   Updated: 2024/05/23 14:44:09 by mbaptist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,3 +68,4 @@ void ClapTrap::beRepaired(unsigned int amount) {
     } else
         std::cout << "ClapTrap " << this->_name << " can't be repaired, no energy or hit points left.\n";
 }
+

@@ -4,8 +4,8 @@ int main() {
     ClapTrap b("BLUE");
     ClapTrap r("RED");
     ClapTrap p;
-
-    std::cout << "Round 1, Fight...\n";
+    
+    std::cout << "\nRound 1, Fight...\n";
     b.attack("RED");
     r.takeDamage(5);
 
@@ -15,7 +15,6 @@ int main() {
 
     p.beRepaired(11);
     r.beRepaired(3);
-    //print energy
 
     b.attack("RED");
     r.takeDamage(5);
