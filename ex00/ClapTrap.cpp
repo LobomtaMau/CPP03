@@ -6,7 +6,7 @@
 /*   By: mbaptist <mbaptist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 11:16:08 by mbaptist          #+#    #+#             */
-/*   Updated: 2024/05/21 10:48:09 by mbaptist         ###   ########.fr       */
+/*   Updated: 2024/05/24 13:19:23 by mbaptist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ ClapTrap::ClapTrap(const std::string name)
 }
 
 ClapTrap::ClapTrap(const ClapTrap &other){
-    std::cout << "ClapTrap Constructor " << this->_name << " has been copied.\n";
     *this = other;
+    std::cout << "ClapTrap Constructor " << this->_name << " has been copied.\n";
 }
 
 ClapTrap::~ClapTrap() {
